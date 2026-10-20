@@ -1,0 +1,36 @@
+{
+  "samples": 1392,
+  "fovs": 58,
+  "mice": 1,
+  "metrics": {
+    "mae": 0.0756305686797647,
+    "nmse": 0.6235604739383976,
+    "psnr": 20.71170547673072,
+    "ssim": 0.5315003076075823
+  },
+  "macro_fov": {
+    "mae": 0.07563056867976468,
+    "nmse": 0.6235604739383976,
+    "psnr": 20.71170547673072,
+    "ssim": 0.5315003076075823
+  },
+  "macro_mouse": {
+    "mae": 0.07563056867976468,
+    "nmse": 0.6235604739383976,
+    "psnr": 20.71170547673072,
+    "ssim": 0.5315003076075823
+  },
+  "aggregation": "FOV: mean patch metrics; mouse: mean FOV metrics. Not stitched-image metrics.",
+  "clamp_for_metrics": true,
+  "model": "pix2pix",
+  "task": "BFtoLYVE1",
+  "subset": "test",
+  "checkpoint": "E:\\Virtual_strain\\benchmark_runs\\batch\\benchmark\\runs\\BFtoLYVE1\\pix2pix_002\\checkpoints\\best_model.pt",
+  "best_epoch": 50,
+  "limited_run": false,
+  "data_signature": {
+    "train": "b62f78416de05eb341e10c77439706f29c5d9cff7d268511580d53d8e2df1eb2",
+    "val": "3d89640abdf91a05b1691a2acd47cdb1e46b2dbf0865aa9e0295a93e7538e725",
+    "test": "4eea34ebfc24a09036aaf8823931ef83a07a054dd1741710b830f30c83245427"
+  }
+}

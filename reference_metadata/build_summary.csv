@@ -1,0 +1,16 @@
+﻿task,subset,mice,fovs,patches
+BFtoCD206,train,9,517,13196
+BFtoCD206,val,2,74,1776
+BFtoCD206,test,2,110,2872
+BFtoDAPI,train,13,960,21013
+BFtoDAPI,val,3,162,3240
+BFtoDAPI,test,3,213,4596
+BFtoIBA1,train,4,312,4533
+BFtoIBA1,val,1,72,1080
+BFtoIBA1,test,1,71,852
+BFtoLYVE1,train,4,205,4920
+BFtoLYVE1,val,1,16,384
+BFtoLYVE1,test,1,58,1392
+BFtoNeutrophil,train,4,286,7476
+BFtoNeutrophil,val,1,51,1224
+BFtoNeutrophil,test,1,84,2352

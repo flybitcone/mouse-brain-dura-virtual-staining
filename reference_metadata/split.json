@@ -1,0 +1,38 @@
+{
+  "seed": 42,
+  "requested_ratios": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "candidates": 30000,
+  "objective": 0.11689181733873003,
+  "method": "metadata-only task/condition FOV-count balancing",
+  "subjects": {
+    "train": [
+      "EXP01_M002",
+      "EXP01_M003",
+      "EXP01_M005",
+      "EXP01_M006",
+      "EXP01_M007",
+      "EXP01_M008",
+      "EXP01_M009",
+      "EXP01_M011",
+      "EXP01_M013",
+      "EXP01_M014",
+      "EXP01_M015",
+      "EXP01_M016",
+      "EXP01_M019"
+    ],
+    "val": [
+      "EXP01_M001",
+      "EXP01_M012",
+      "EXP01_M017"
+    ],
+    "test": [
+      "EXP01_M004",
+      "EXP01_M010",
+      "EXP01_M018"
+    ]
+  }
+}

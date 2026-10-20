@@ -1,0 +1,36 @@
+{
+  "samples": 852,
+  "fovs": 71,
+  "mice": 1,
+  "metrics": {
+    "mae": 0.18644813249683437,
+    "nmse": 248206453.89010307,
+    "psnr": 13.614733797843467,
+    "ssim": 0.09961723121554135
+  },
+  "macro_fov": {
+    "mae": 0.18644813249683434,
+    "nmse": 248206453.89010307,
+    "psnr": 13.614733797843469,
+    "ssim": 0.09961723121554134
+  },
+  "macro_mouse": {
+    "mae": 0.18644813249683434,
+    "nmse": 248206453.89010307,
+    "psnr": 13.614733797843469,
+    "ssim": 0.09961723121554134
+  },
+  "aggregation": "FOV: mean patch metrics; mouse: mean FOV metrics. Not stitched-image metrics.",
+  "clamp_for_metrics": true,
+  "model": "cyclegan",
+  "task": "BFtoIBA1",
+  "subset": "test",
+  "checkpoint": "/home/Virtual_strain/benchmark_runs/batch/benchmark_006/runs/BFtoIBA1/cyclegan/checkpoints/best_model.pt",
+  "best_epoch": 27,
+  "limited_run": false,
+  "data_signature": {
+    "train": "6b16a63db6acf63ecbef53fe2a41621d512a3afa81c07ff08cbed529f6319941",
+    "val": "8e8a2205483eda9cd23275de86482f6c614fb2d1f6e12261bd53ec5b05112ca6",
+    "test": "e7a68ce955419556721e32d0cfb1235cf60e86f96316714662eb62e7bf8b0ba9"
+  }
+}

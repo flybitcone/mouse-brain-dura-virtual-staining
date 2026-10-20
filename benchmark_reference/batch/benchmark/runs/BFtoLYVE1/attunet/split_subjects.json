@@ -1,0 +1,21 @@
+{
+  "EXP01_M010": "test",
+  "EXP01_M018": "test",
+  "EXP01_M007": "train",
+  "EXP01_M008": "train",
+  "EXP01_M009": "train",
+  "EXP01_M011": "train",
+  "EXP01_M013": "train",
+  "EXP01_M014": "train",
+  "EXP01_M015": "train",
+  "EXP01_M016": "train",
+  "EXP01_M019": "train",
+  "EXP01_M012": "val",
+  "EXP01_M017": "val",
+  "EXP01_M004": "test",
+  "EXP01_M002": "train",
+  "EXP01_M003": "train",
+  "EXP01_M005": "train",
+  "EXP01_M006": "train",
+  "EXP01_M001": "val"
+}

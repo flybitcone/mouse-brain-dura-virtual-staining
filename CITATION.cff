@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying research article and this dataset. Article citation details will be added when available."
+title: "Code for paired brightfield and fluorescence images of mouse brain and dura mater"
+type: software
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: Li
+    given-names: Yicheng
+  - family-names: Liu
+    given-names: Yibin
+  - family-names: Lin
+    given-names: Weihao
+  - family-names: Chen
+    given-names: Kai
+  - family-names: Chen
+    given-names: Gina Jinna
+  - family-names: Shao
+    given-names: Liyang
+  - family-names: Shum
+    given-names: Perry Ping
+  - family-names: Feng
+    given-names: Guodong

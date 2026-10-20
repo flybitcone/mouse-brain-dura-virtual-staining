@@ -1,0 +1,36 @@
+{
+  "samples": 852,
+  "fovs": 71,
+  "mice": 1,
+  "metrics": {
+    "mae": 0.09443963891629811,
+    "nmse": 8647975.03625779,
+    "psnr": 18.83108250076222,
+    "ssim": 0.2587897068309322
+  },
+  "macro_fov": {
+    "mae": 0.09443963891629813,
+    "nmse": 8647975.03625779,
+    "psnr": 18.831082500762225,
+    "ssim": 0.2587897068309322
+  },
+  "macro_mouse": {
+    "mae": 0.09443963891629813,
+    "nmse": 8647975.03625779,
+    "psnr": 18.831082500762225,
+    "ssim": 0.2587897068309322
+  },
+  "aggregation": "FOV: mean patch metrics; mouse: mean FOV metrics. Not stitched-image metrics.",
+  "clamp_for_metrics": true,
+  "model": "attunet",
+  "task": "BFtoIBA1",
+  "subset": "test",
+  "checkpoint": "E:\\Virtual_strain\\benchmark_runs\\batch\\benchmark\\runs\\BFtoIBA1\\attunet\\checkpoints\\best_model.pt",
+  "best_epoch": 40,
+  "limited_run": false,
+  "data_signature": {
+    "train": "6b16a63db6acf63ecbef53fe2a41621d512a3afa81c07ff08cbed529f6319941",
+    "val": "8e8a2205483eda9cd23275de86482f6c614fb2d1f6e12261bd53ec5b05112ca6",
+    "test": "e7a68ce955419556721e32d0cfb1235cf60e86f96316714662eb62e7bf8b0ba9"
+  }
+}

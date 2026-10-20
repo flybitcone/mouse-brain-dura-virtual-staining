@@ -1,0 +1,36 @@
+{
+  "samples": 4596,
+  "fovs": 213,
+  "mice": 3,
+  "metrics": {
+    "mae": 0.13576749947947006,
+    "nmse": 149.43725649394528,
+    "psnr": 15.21832922544554,
+    "ssim": 0.3754438564122158
+  },
+  "macro_fov": {
+    "mae": 0.12926764321995377,
+    "nmse": 197.34152034326826,
+    "psnr": 15.192046744616112,
+    "ssim": 0.3935785890488579
+  },
+  "macro_mouse": {
+    "mae": 0.1279489187618775,
+    "nmse": 189.1019866499948,
+    "psnr": 15.227371140470098,
+    "ssim": 0.40093044716232623
+  },
+  "aggregation": "FOV: mean patch metrics; mouse: mean FOV metrics. Not stitched-image metrics.",
+  "clamp_for_metrics": true,
+  "model": "unet",
+  "task": "BFtoDAPI",
+  "subset": "test",
+  "checkpoint": "E:\\Virtual_strain\\benchmark_runs\\batch\\benchmark\\runs\\BFtoDAPI\\unet\\checkpoints\\best_model.pt",
+  "best_epoch": 52,
+  "limited_run": false,
+  "data_signature": {
+    "train": "84446bd2dbfced0ffba14041f1404394ed55c152131228946b84560bb8e81b60",
+    "val": "140ac967eb5609f4553e4c93d62140217b357453483a7c46fa01429302e09c09",
+    "test": "c2f90214c99551fa5036d1b970742f2f46f405bc6475f82c5765742169b97f48"
+  }
+}

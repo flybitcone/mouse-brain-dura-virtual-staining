@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+raw_data/
+preprocessing_build/
+preprocessing_previous/
+preprocessing_reports/
+deep learning/dataset_patches/
+deep learning/benchmark_runs/
+*.npy
+*.tif
+*.tiff
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.zip.*
+*.log

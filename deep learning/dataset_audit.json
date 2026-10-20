@@ -1,0 +1,333 @@
+{
+  "status": "passed",
+  "subsets": [
+    {
+      "task": "BFtoCD206",
+      "subset": "train",
+      "indexed_pairs": 13196,
+      "files": 26392,
+      "excluded_files": 0,
+      "fovs": 517,
+      "subjects": [
+        "EXP01_M007",
+        "EXP01_M008",
+        "EXP01_M009",
+        "EXP01_M011",
+        "EXP01_M013",
+        "EXP01_M014",
+        "EXP01_M015",
+        "EXP01_M016",
+        "EXP01_M019"
+      ],
+      "shapes": {
+        "(256, 256, 3) float32": 13196,
+        "(256, 256) float32": 13196
+      },
+      "verified_value_bounds": [
+        0,
+        1
+      ]
+    },
+    {
+      "task": "BFtoCD206",
+      "subset": "val",
+      "indexed_pairs": 1776,
+      "files": 3552,
+      "excluded_files": 0,
+      "fovs": 74,
+      "subjects": [
+        "EXP01_M012",
+        "EXP01_M017"
+      ],
+      "shapes": {
+        "(256, 256, 3) float32": 1776,
+        "(256, 256) float32": 1776
+      },
+      "verified_value_bounds": [
+        0,
+        1
+      ]
+    },
+    {
+      "task": "BFtoCD206",
+      "subset": "test",
+      "indexed_pairs": 2872,
+      "files": 5744,
+      "excluded_files": 0,
+      "fovs": 110,
+      "subjects": [
+        "EXP01_M010",
+        "EXP01_M018"
+      ],
+      "shapes": {
+        "(256, 256, 3) float32": 2872,
+        "(256, 256) float32": 2872
+      },
+      "verified_value_bounds": [
+        0,
+        1
+      ]
+    },
+    {
+      "task": "BFtoDAPI",
+      "subset": "train",
+      "indexed_pairs": 21013,
+      "files": 42026,
+      "excluded_files": 0,
+      "fovs": 960,
+      "subjects": [
+        "EXP01_M002",
+        "EXP01_M003",
+        "EXP01_M005",
+        "EXP01_M006",
+        "EXP01_M007",
+        "EXP01_M008",
+        "EXP01_M009",
+        "EXP01_M011",
+        "EXP01_M013",
+        "EXP01_M014",
+        "EXP01_M015",
+        "EXP01_M016",
+        "EXP01_M019"
+      ],
+      "shapes": {
+        "(256, 256, 3) float32": 21013,
+        "(256, 256) float32": 21013
+      },
+      "verified_value_bounds": [
+        0,
+        1
+      ]
+    },
+    {
+      "task": "BFtoDAPI",
+      "subset": "val",
+      "indexed_pairs": 3240,
+      "files": 6480,
+      "excluded_files": 0,
+      "fovs": 162,
+      "subjects": [
+        "EXP01_M001",
+        "EXP01_M012",
+        "EXP01_M017"
+      ],
+      "shapes": {
+        "(256, 256, 3) float32": 3240,
+        "(256, 256) float32": 3240
+      },
+      "verified_value_bounds": [
+        0,
+        1
+      ]
+    },
+    {
+      "task": "BFtoDAPI",
+      "subset": "test",
+      "indexed_pairs": 4596,
+      "files": 9192,
+      "excluded_files": 0,
+      "fovs": 213,
+      "subjects": [
+        "EXP01_M004",
+        "EXP01_M010",
+        "EXP01_M018"
+      ],
+      "shapes": {
+        "(256, 256, 3) float32": 4596,
+        "(256, 256) float32": 4596
+      },
+      "verified_value_bounds": [
+        0,
+        1
+      ]
+    },
+    {
+      "task": "BFtoIBA1",
+      "subset": "train",
+      "indexed_pairs": 4533,
+      "files": 9066,
+      "excluded_files": 0,
+      "fovs": 312,
+      "subjects": [
+        "EXP01_M002",
+        "EXP01_M003",
+        "EXP01_M005",
+        "EXP01_M006"
+      ],
+      "shapes": {
+        "(256, 256, 3) float32": 4533,
+        "(256, 256) float32": 4533
+      },
+      "verified_value_bounds": [
+        0,
+        1
+      ]
+    },
+    {
+      "task": "BFtoIBA1",
+      "subset": "val",
+      "indexed_pairs": 1080,
+      "files": 2160,
+      "excluded_files": 0,
+      "fovs": 72,
+      "subjects": [
+        "EXP01_M001"
+      ],
+      "shapes": {
+        "(256, 256, 3) float32": 1080,
+        "(256, 256) float32": 1080
+      },
+      "verified_value_bounds": [
+        0,
+        1
+      ]
+    },
+    {
+      "task": "BFtoIBA1",
+      "subset": "test",
+      "indexed_pairs": 852,
+      "files": 1704,
+      "excluded_files": 0,
+      "fovs": 71,
+      "subjects": [
+        "EXP01_M004"
+      ],
+      "shapes": {
+        "(256, 256, 3) float32": 852,
+        "(256, 256) float32": 852
+      },
+      "verified_value_bounds": [
+        0,
+        1
+      ]
+    },
+    {
+      "task": "BFtoLYVE1",
+      "subset": "train",
+      "indexed_pairs": 4920,
+      "files": 9840,
+      "excluded_files": 0,
+      "fovs": 205,
+      "subjects": [
+        "EXP01_M007",
+        "EXP01_M013",
+        "EXP01_M014",
+        "EXP01_M019"
+      ],
+      "shapes": {
+        "(256, 256, 3) float32": 4920,
+        "(256, 256) float32": 4920
+      },
+      "verified_value_bounds": [
+        0,
+        1
+      ]
+    },
+    {
+      "task": "BFtoLYVE1",
+      "subset": "val",
+      "indexed_pairs": 384,
+      "files": 768,
+      "excluded_files": 0,
+      "fovs": 16,
+      "subjects": [
+        "EXP01_M012"
+      ],
+      "shapes": {
+        "(256, 256, 3) float32": 384,
+        "(256, 256) float32": 384
+      },
+      "verified_value_bounds": [
+        0,
+        1
+      ]
+    },
+    {
+      "task": "BFtoLYVE1",
+      "subset": "test",
+      "indexed_pairs": 1392,
+      "files": 2784,
+      "excluded_files": 0,
+      "fovs": 58,
+      "subjects": [
+        "EXP01_M018"
+      ],
+      "shapes": {
+        "(256, 256, 3) float32": 1392,
+        "(256, 256) float32": 1392
+      },
+      "verified_value_bounds": [
+        0,
+        1
+      ]
+    },
+    {
+      "task": "BFtoNeutrophil",
+      "subset": "train",
+      "indexed_pairs": 7476,
+      "files": 14952,
+      "excluded_files": 0,
+      "fovs": 286,
+      "subjects": [
+        "EXP01_M008",
+        "EXP01_M009",
+        "EXP01_M011",
+        "EXP01_M016"
+      ],
+      "shapes": {
+        "(256, 256, 3) float32": 7476,
+        "(256, 256) float32": 7476
+      },
+      "verified_value_bounds": [
+        0,
+        1
+      ]
+    },
+    {
+      "task": "BFtoNeutrophil",
+      "subset": "val",
+      "indexed_pairs": 1224,
+      "files": 2448,
+      "excluded_files": 0,
+      "fovs": 51,
+      "subjects": [
+        "EXP01_M017"
+      ],
+      "shapes": {
+        "(256, 256, 3) float32": 1224,
+        "(256, 256) float32": 1224
+      },
+      "verified_value_bounds": [
+        0,
+        1
+      ]
+    },
+    {
+      "task": "BFtoNeutrophil",
+      "subset": "test",
+      "indexed_pairs": 2352,
+      "files": 4704,
+      "excluded_files": 0,
+      "fovs": 84,
+      "subjects": [
+        "EXP01_M010"
+      ],
+      "shapes": {
+        "(256, 256, 3) float32": 2352,
+        "(256, 256) float32": 2352
+      },
+      "verified_value_bounds": [
+        0,
+        1
+      ]
+    }
+  ],
+  "errors": [],
+  "overlaps": [],
+  "indexed_patch_pairs": 70906,
+  "original_files": 4526,
+  "verification": "global mouse, FOV and exact source RGB duplicate leakage",
+  "every_patch_compared_to_source": false,
+  "full_validation_report": "preprocessing_reports/validation.json",
+  "raw_inventory_sha256": "f24a926f8b72d61947e6de6d18283d554f79319f2150c85db27c50dbf348af68"
+}

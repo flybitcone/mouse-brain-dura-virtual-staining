@@ -1,0 +1,9 @@
+{
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "numpy": "2.5.2",
+  "tifffile": "2026.8.16",
+  "imagecodecs": "2026.8.16",
+  "normalization": "uint8_div_255",
+  "patch_size": 256,
+  "seed": 42
+}

@@ -1,0 +1,36 @@
+{
+  "samples": 2352,
+  "fovs": 84,
+  "mice": 1,
+  "metrics": {
+    "mae": 0.08281100781034159,
+    "nmse": 1.123117498665427,
+    "psnr": 21.376777972899326,
+    "ssim": 0.5657264161918337
+  },
+  "macro_fov": {
+    "mae": 0.08281100781034159,
+    "nmse": 1.123117498665427,
+    "psnr": 21.376777972899326,
+    "ssim": 0.5657264161918338
+  },
+  "macro_mouse": {
+    "mae": 0.08281100781034159,
+    "nmse": 1.123117498665427,
+    "psnr": 21.376777972899326,
+    "ssim": 0.5657264161918338
+  },
+  "aggregation": "FOV: mean patch metrics; mouse: mean FOV metrics. Not stitched-image metrics.",
+  "clamp_for_metrics": true,
+  "model": "unet",
+  "task": "BFtoNeutrophil",
+  "subset": "test",
+  "checkpoint": "E:\\Virtual_strain\\benchmark_runs\\batch\\benchmark\\runs\\BFtoNeutrophil\\unet_001\\checkpoints\\best_model.pt",
+  "best_epoch": 3,
+  "limited_run": false,
+  "data_signature": {
+    "train": "d56ba6fa413fd363376928b4fbd1860065aed3fdd89d664fc48b238665b1686d",
+    "val": "ee76fc04d0e70899f2d46a3584889ed892c935127f6f1fa038019d8fb4d90ff7",
+    "test": "2cad83686e31e6459294a950ef7dda396355d970cc61d0b3cd3698ee62b86960"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "samples": 4596,
+  "fovs": 213,
+  "mice": 3,
+  "metrics": {
+    "mae": 0.13109697694608535,
+    "nmse": 199.8915191215939,
+    "psnr": 15.27982264326592,
+    "ssim": 0.4086137348858946
+  },
+  "macro_fov": {
+    "mae": 0.12458255239480762,
+    "nmse": 342.6573558431031,
+    "psnr": 15.222404232820407,
+    "ssim": 0.44047069682544165
+  },
+  "macro_mouse": {
+    "mae": 0.12395237132465846,
+    "nmse": 340.7563110532167,
+    "psnr": 15.216597916412587,
+    "ssim": 0.447150112000851
+  },
+  "aggregation": "FOV: mean patch metrics; mouse: mean FOV metrics. Not stitched-image metrics.",
+  "clamp_for_metrics": true,
+  "model": "attunet",
+  "task": "BFtoDAPI",
+  "subset": "test",
+  "checkpoint": "E:\\Virtual_strain\\benchmark_runs\\batch\\benchmark\\runs\\BFtoDAPI\\attunet_002\\checkpoints\\best_model.pt",
+  "best_epoch": 58,
+  "limited_run": false,
+  "data_signature": {
+    "train": "84446bd2dbfced0ffba14041f1404394ed55c152131228946b84560bb8e81b60",
+    "val": "140ac967eb5609f4553e4c93d62140217b357453483a7c46fa01429302e09c09",
+    "test": "c2f90214c99551fa5036d1b970742f2f46f405bc6475f82c5765742169b97f48"
+  }
+}

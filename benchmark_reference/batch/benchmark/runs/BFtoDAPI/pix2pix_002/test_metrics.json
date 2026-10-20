@@ -1,0 +1,36 @@
+{
+  "samples": 4596,
+  "fovs": 213,
+  "mice": 3,
+  "metrics": {
+    "mae": 0.16361396371575804,
+    "nmse": 36528.12004174202,
+    "psnr": 13.380493954796703,
+    "ssim": 0.28561817288293473
+  },
+  "macro_fov": {
+    "mae": 0.15599281896195563,
+    "nmse": 65401.57106769687,
+    "psnr": 13.395928935972124,
+    "ssim": 0.3142647298841489
+  },
+  "macro_mouse": {
+    "mae": 0.15421635889181112,
+    "nmse": 65369.079758378044,
+    "psnr": 13.456524080150194,
+    "ssim": 0.32239962330962046
+  },
+  "aggregation": "FOV: mean patch metrics; mouse: mean FOV metrics. Not stitched-image metrics.",
+  "clamp_for_metrics": true,
+  "model": "pix2pix",
+  "task": "BFtoDAPI",
+  "subset": "test",
+  "checkpoint": "E:\\Virtual_strain\\benchmark_runs\\batch\\benchmark\\runs\\BFtoDAPI\\pix2pix_002\\checkpoints\\best_model.pt",
+  "best_epoch": 58,
+  "limited_run": false,
+  "data_signature": {
+    "train": "84446bd2dbfced0ffba14041f1404394ed55c152131228946b84560bb8e81b60",
+    "val": "140ac967eb5609f4553e4c93d62140217b357453483a7c46fa01429302e09c09",
+    "test": "c2f90214c99551fa5036d1b970742f2f46f405bc6475f82c5765742169b97f48"
+  }
+}

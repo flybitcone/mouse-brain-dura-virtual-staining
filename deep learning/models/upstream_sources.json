@@ -1,0 +1,30 @@
+[
+  {
+    "repository": "swz30/Restormer",
+    "commit": "68dc6ac472db26f16361150cb7a96a1bc87da93f",
+    "source": "https://raw.githubusercontent.com/swz30/Restormer/68dc6ac472db26f16361150cb7a96a1bc87da93f/basicsr/models/archs/restormer_arch.py",
+    "local": "restormer_upstream.py",
+    "sha256": "3be243fa3c8e2cb2c9459eeac062b04d6084dbcc328292dae1c3e52ba6f7434a"
+  },
+  {
+    "repository": "swz30/Restormer",
+    "commit": "68dc6ac472db26f16361150cb7a96a1bc87da93f",
+    "source": "https://raw.githubusercontent.com/swz30/Restormer/68dc6ac472db26f16361150cb7a96a1bc87da93f/LICENSE.md",
+    "local": "restormer_LICENSE.txt",
+    "sha256": "2b93776512924bc095ec5d97a79d76cf1ab401ae641d1ae1f46e94f1c53a2e59"
+  },
+  {
+    "repository": "JingyunLiang/SwinIR",
+    "commit": "6545850fbf8df298df73d81f3e8cba638787c8bd",
+    "source": "https://raw.githubusercontent.com/JingyunLiang/SwinIR/6545850fbf8df298df73d81f3e8cba638787c8bd/models/network_swinir.py",
+    "local": "swinir_upstream.py",
+    "sha256": "9e143898679ebeebc5d2fc94ad1b89c38aa4a4d43da4e0fcba0f93e476994913"
+  },
+  {
+    "repository": "JingyunLiang/SwinIR",
+    "commit": "6545850fbf8df298df73d81f3e8cba638787c8bd",
+    "source": "https://raw.githubusercontent.com/JingyunLiang/SwinIR/6545850fbf8df298df73d81f3e8cba638787c8bd/LICENSE",
+    "local": "swinir_LICENSE.txt",
+    "sha256": "d66ccc11682c7458b19b376e1335e8665cbe412ff71f554bfec25f1791cddfa0"
+  }
+]

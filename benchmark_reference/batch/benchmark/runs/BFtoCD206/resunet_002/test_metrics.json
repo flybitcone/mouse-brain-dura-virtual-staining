@@ -1,0 +1,36 @@
+{
+  "samples": 2872,
+  "fovs": 110,
+  "mice": 2,
+  "metrics": {
+    "mae": 0.1558329295970157,
+    "nmse": 86.25150238933213,
+    "psnr": 14.511601531405967,
+    "ssim": 0.4388129770873156
+  },
+  "macro_fov": {
+    "mae": 0.1526508109397114,
+    "nmse": 80.50460370714892,
+    "psnr": 14.680018451229316,
+    "ssim": 0.444706243515575
+  },
+  "macro_mouse": {
+    "mae": 0.150378170492817,
+    "nmse": 76.40022049712819,
+    "psnr": 14.800300296487773,
+    "ssim": 0.44891516124981606
+  },
+  "aggregation": "FOV: mean patch metrics; mouse: mean FOV metrics. Not stitched-image metrics.",
+  "clamp_for_metrics": true,
+  "model": "resunet",
+  "task": "BFtoCD206",
+  "subset": "test",
+  "checkpoint": "E:\\Virtual_strain\\benchmark_runs\\batch\\benchmark\\runs\\BFtoCD206\\resunet_002\\checkpoints\\best_model.pt",
+  "best_epoch": 1,
+  "limited_run": false,
+  "data_signature": {
+    "train": "d7d7eaa1a039b741a8eab9bbdfdda666ecf76c6dd77bcecbb475aac1542c909a",
+    "val": "6f14fd81c3884f2da93b92e45f7a76d5fc81695c2efe99d076aa0390c3781301",
+    "test": "2ed1c87618c52c282cc01f1e5e37b0b62d4ef4afd84f390437af700da3f3e685"
+  }
+}
